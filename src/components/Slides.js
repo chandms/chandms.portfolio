@@ -9,7 +9,7 @@ export default function CarouselComponent() {
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img src="../pr2.jpeg" className="object-cover object-center rounded " alt='pic1' />
               </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+              {/* <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img src="../inst.png"  className="object-cover object-center rounded "  alt='pic2'/>
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
@@ -26,7 +26,7 @@ export default function CarouselComponent() {
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img src="../home.jpeg"  className="object-cover object-center rounded " alt='pic7'/>
-              </div>
+              </div> */}
           </Carousel>
       </div>
   );

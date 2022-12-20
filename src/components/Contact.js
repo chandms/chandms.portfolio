@@ -14,6 +14,7 @@ export default function Contact() {
 
     emailjs.sendForm('service_vga1zef', 'template_a6xw1fv', e.target, 'fIH415Mggf_Q2FylC')
       .then((result) => {
+          alert("Email sent Sucessfully!!")
           console.log(result.text);
 
       }, (error) => {

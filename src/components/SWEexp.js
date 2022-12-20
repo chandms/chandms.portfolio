@@ -22,8 +22,10 @@ function OutlineCollapse(props){
     </div>
     <p className="styleCardTitle">{props.location}</p>
     <p className="styleCardTitle">{props.date}</p>
-    <p className="styleDescription">{props.description}</p>
-    <p className="text-fuchsia-900">{props.goal}</p>
+    <br></br>
+    <p className="shadow-lg text-black">{props.description}</p>
+    <br></br>
+    <p className="shadow-lg text-black">{props.goal}</p>
     
     </div>
 
@@ -50,7 +52,7 @@ export default function Projects() {
         width={project.width} height={project.height} 
         description={project.description} date={project.subtitle} location={project.location}
         goal={project.goal}/>
-            
+        <br></br>
         <Collapsible trigger={<ArrowsExpandIcon className="w-10 h-10 mx-auto text-center hover:bg-indigo-700 rounded " />}>
         <CustCard
               tech={project.tech}

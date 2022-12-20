@@ -18,8 +18,10 @@ function OutlineCollapse(props){
     <a href={props.location2_url} className="text-center mx-auto underline text-black hover:bg-indigo-400">{props.location2}</a>
     
     <p className="styleCardTitle">{props.date}</p>
-    <p className="styleDescription">{props.description}</p>
-    <p className="text-fuchsia-900">{props.goal}</p>
+    <br></br>
+    <p className="shadow-lg text-black">{props.description}</p>
+    <br></br>
+    <p className="shadow-lg text-black">{props.goal}</p>
     
     </div>
 

@@ -1,27 +1,25 @@
 import React from "react";
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
+  // eslint-disable-next-line
   const [name, setName] = React.useState("");
+  // eslint-disable-next-line
   const [email, setEmail] = React.useState("");
+  // eslint-disable-next-line
   const [message, setMessage] = React.useState("");
-
-  function encode(data) {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  }
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "test", name, email, message }),
-    })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+
+    emailjs.sendForm('service_vga1zef', 'template_a6xw1fv', e.target, 'fIH415Mggf_Q2FylC')
+      .then((result) => {
+          console.log(result.text);
+
+      }, (error) => {
+          console.log(error.text);
+      });
+
   }
 
   return (
@@ -66,7 +64,6 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
           name="test"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">

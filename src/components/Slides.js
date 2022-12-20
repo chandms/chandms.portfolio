@@ -13,15 +13,6 @@ export default function CarouselComponent() {
               <img src="./inst.png"  className="object-cover object-center rounded "  alt='pic2'/>
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                  <img src="./profile_pic.jpg" className="object-cover object-center rounded " alt='pic3'/>
-              </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                  <img src="./pr1.jpeg" className="object-cover object-center rounded " alt='pic4'/>
-              </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <img src="./pr3.jpeg"  className="object-cover object-center rounded " alt='pic5'/>
-              </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img src="./hsbc.png"  className="object-cover object-center rounded " alt='pic6'/>
               </div>
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

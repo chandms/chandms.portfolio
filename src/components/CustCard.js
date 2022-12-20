@@ -1,63 +1,31 @@
 import React from "react";
 
-/**
- * NOTES:
- * - On styling:
- * For this test I moved the styles to styles.css.
- * - On conditional rendering:
- * The conditional statement that checks whether or not to display an image
- * exists within the 'CardImage' function. Used in the component as:
- * <CardImage />
- * - On default props:
- * I have no idea whether this approach of handling defaults is the right/best one.
- * Next step would be to try variations on setting defaults.
- */
-
-/*
-1. Card Class
-2. Defaults 
-*/
-
-// 1. Card Class /////////////////////////////////////////////
-// function CardImage(props) {
-//   const isImageURL = props.image;
-//   // If an image was passed:
-//   if (isImageURL) {
-//     return (
-//       <div className="styleImage">
-//         <img
-//           style={{ width: props.width + "px", marginTop: "-8%" }}
-//           src={props.image}
-//           alt="Seattle"
-//         />
-//       </div>
-//     );
-//   }
-//   return null;
-// }
-
 function CardContent(props) {
 
   return (
-    <div className="styleCardContent">
-      <p className="styleCardTitle">Tech Stack: {props.tech}</p>
-      <p className="styleCardTitle">Tools: </p>
-      <ul className="list-disc">
+    <div className="shadow-lg shadow-indigo-500/50">
+      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50">Tech Stack:</p>
+      <p className="">{props.tech}</p>
+      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50">Tools: </p>
+      <ul className="list-none">
       {props.tools && props.tools.map(tool => {return (
-         <li key={tool} className="styleCardTitle">{tool}</li>
+         <li key={tool} className="italic font-medium mx-auto px-auto">{tool}</li>
       );})
       }
       </ul>
       <b>{
       props.tasks.length>0 ?
-      <p className="styleCardTitle">Tasks: </p>
+      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50">Tasks: </p>
       :
       <p></p>
         }
       </b>
       <ul className="list-disc">
       {props.tasks && props.tasks.map(task => {return (
-         <li key={task} className="styleCardTitle">{task}</li>
+        <div>
+         <li key={task} className="italic font-medium mx-auto px-auto">{task}</li>
+         <br></br>
+         </div>
       );})
       }
       </ul>
@@ -72,7 +40,6 @@ export default class CustCard extends React.Component {
     return (
       <div style={{ width: this.props.width + "px" }}>
         <div className="styleCard">
-          {/* <CardImage image={this.props.image} width={this.props.width} /> */}
           <CardContent
             tech={this.props.tech}
             tasks={this.props.tasks}

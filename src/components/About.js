@@ -16,7 +16,7 @@ export default function About() {
             <p className="mb-8 mr-2 leading-relaxed">
               I am pursuing MS in Computer Science at
             </p>
-            <a href="https://www.cs.purdue.edu/"><img alt="Purdue University" src="./purdue_university.png" className="border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg"/></a>
+            <a href="https://www.cs.purdue.edu/"><img alt="Purdue University" src="./pictures/purdue_university.png" className="border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg"/></a>
           </div>
           <div className="flex justify-center">
             <SocialIcon url="https://www.linkedin.com/in/cmukherj/"  className="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-900 rounded text-lg mr-5"  />

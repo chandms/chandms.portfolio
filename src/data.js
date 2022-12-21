@@ -6,7 +6,7 @@ export const projects = [
     description:
       "Team: Messenger > Messaging Health Signal > Privacy Approval Monitor(PAM)",
     goal: "Goal: To visulaize if any messenger feature was accessing data from sensitive table, and determine that before the code reaches production.",
-    image: "./meta_icon.webp",
+    image: "./pictures/meta_icon.webp",
     width: "100",
     height: "100",
     tech: "React, GraphQL, Python",
@@ -25,7 +25,7 @@ export const projects = [
     description:
       "Team: Wealth and Personal Banking(WPB) > Global Credit Module(GCM)",
     goal: "Worked as a Full Stack Developer on a product that  primarily addresses Relationship Managers, but some features were also customer-centric.",
-    image: "./HSBC-sym.png",
+    image: "./pictures/HSBC-sym.png",
     width: "100",
     height: "200",
     tech: "JAVA, DB2, Batch",
@@ -67,7 +67,7 @@ export const research = [
   {
     title: "Research Engineer @",
     project_name: "ITRA Project",
-    project_doc: "./mcnrg.pdf",
+    project_doc: "./pdfs/mcnrg.pdf",
     subtitle: "April 2018 - December 2018",
     location1: "MCNRG, NIT Durgapur ",
     location2: "Kalyani Government Engineering College",
@@ -76,7 +76,7 @@ export const research = [
     description:
       "Post Disaster Situation Analysis and Resource Management Using Delay-Tolerant Peer-to-Peer Wireless Networks.",
     goal: "Goal: To visualize the summary of GIS data shared by victims and volunteers in a disaster-stricken area in offline mode.",
-    images: ["./surakshit_1.png", "./surakshit_2.png"],
+    images: ["./pictures/surakshit_1.png", "./pictures/surakshit_2.png"],
     width: "300",
     height: "250",
     tech: "JAVA, Python, Javascript, MongoDB",
@@ -91,9 +91,9 @@ export const research = [
   {
     title: "Research Intern @",
     project_name: "CNeRG",
-    project_doc: "./cnerg.pdf",
+    project_doc: "./pdfs/cnerg.pdf",
     subtitle: "May 2018 - June 2018",
-    location1: "IIT Kharagpur ",
+    location1: "CNeRG, IIT Kharagpur ",
     location2: "",
     location1_url: "https://cnerg-iitkgp.github.io/",
     location_url2: "",
@@ -119,7 +119,7 @@ export const publications = [
     title: "On designing a fast-deployable 'localized' GIS platform for using 'offline' during post-disaster situation",
     authors: "Partha Sarathi Paul, Chandrika Mukherjee, Bishakh Chandra Ghosh, Sudipta Pandit, Sujoy Saha, Subrata Nandi",
     link: "https://dl.acm.org/doi/10.1145/3288599.3295592",
-    image: "./acm.png",
+    image: "./pictures/acm.png",
     width: 75,
     height: 50,
   },

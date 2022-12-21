@@ -29,7 +29,7 @@ export default function Navbar() {
           <a href="#interests" className="mr-5 border-0 py-1 px-2 hover:bg-blue-700 rounded text-base mt-4 md:mt-0">
             Interests
           </a>
-          <a href="./ChandrikaMukherjee.pdf" className="mr-5 border-0 py-1 px-2 hover:bg-blue-700 rounded text-base mt-4 md:mt-0">
+          <a href="./pdfs/ChandrikaMukherjee.pdf" className="mr-5 border-0 py-1 px-2 hover:bg-blue-700 rounded text-base mt-4 md:mt-0">
           Resume
           </a>
         </nav>

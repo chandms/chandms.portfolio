@@ -6,10 +6,10 @@ import { ArrowsExpandIcon, AcademicCapIcon} from "@heroicons/react/solid";
 
 function OutlineCollapse(props){
   return (
-    <div>
-    <div className="container px-5 py-10 mr-auto mt-auto mb-auto ml-20 text-center lg:px-40">
-      <div className="flex">
-      <h1 className="mr-2 text-white font-mono text-2xl">{props.title}</h1>
+    <div className="flex flex-col flex-wrap">
+    <div className="px-5 py-10 mx-auto text-center lg:px-40">
+      <div>
+      <h1 className="text-white font-mono text-2xl">{props.title}</h1>
       <a href={props.project_doc} className="mr-2 text-white font-mono text-2xl hover:bg-yellow-900 underline">{props.project_name}</a>
       </div>
     </div>
@@ -17,7 +17,7 @@ function OutlineCollapse(props){
     <br></br>
     <a href={props.location2_url} className="text-center mx-auto underline text-black hover:bg-indigo-400">{props.location2}</a>
     
-    <p className="styleCardTitle">{props.date}</p>
+    <p className="text-slate">{props.date}</p>
     <br></br>
     <p className="shadow-lg text-black">{props.description}</p>
     <br></br>

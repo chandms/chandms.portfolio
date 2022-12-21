@@ -7,21 +7,21 @@ import { ArrowsExpandIcon} from "@heroicons/react/solid";
 
 function OutlineCollapse(props){
   return (
-    <div>
-    <div className="container px-5 py-10 mr-auto mt-auto mb-auto ml-20 text-center lg:px-40">
-      <div className="flex">
-      <h1 className="mr-2 text-white font-mono text-2xl">{props.title}</h1>
+    <div className="flex flex-col flex-wrap">
+    <div className="px-5 py-10 mx-auto text-center lg:px-40">
+      <div className="flex flex-row justify-around">
+      <h1 className="  text-white font-mono text-2xl">{props.title}</h1>
       <div>
         <img
-          style={{ width: props.width + "px", height: props.height}}
+          className="w-16 md:w-32 lg:w-48"
           src={props.image}
           alt="Logo"
         />
       </div>
       </div>
     </div>
-    <p className="styleCardTitle">{props.location}</p>
-    <p className="styleCardTitle">{props.date}</p>
+    <p className="text-slate">{props.location}</p>
+    <p className="text-slate">{props.date}</p>
     <br></br>
     <p className="shadow-lg text-black">{props.description}</p>
     <br></br>
@@ -34,14 +34,14 @@ function OutlineCollapse(props){
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-500 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-500 bg-gray-900 body-font ">
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-    <div className="flex flex-col w-full mb-20">
-      <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+    <div className="flex flex-col w-full">
+      <CodeIcon className="mx-auto inline-block w-10" />
+      <h1 className="sm:text-2xl text-3xl font-medium title-font text-white">
         Software Engineering Experience
       </h1>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base mb-2">
             Following are my past software industry experiences - 
         </p>
       </div>

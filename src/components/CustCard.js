@@ -1,12 +1,11 @@
 import React from "react";
 
 function CardContent(props) {
-
   return (
-    <div className="shadow-lg shadow-indigo-500/50">
-      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50">Tech Stack:</p>
+    <div className="shadow-lg shadow-indigo-500/50 flex flex-col flex-wrap ">
+      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tech Stack:</p>
       <p className="">{props.tech}</p>
-      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50">Tools: </p>
+      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tools: </p>
       <ul className="list-none">
       {props.tools && props.tools.map(tool => {return (
          <li key={tool} className="italic font-medium mx-auto px-auto">{tool}</li>
@@ -15,7 +14,7 @@ function CardContent(props) {
       </ul>
       <b>{
       props.tasks.length>0 ?
-      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50">Tasks: </p>
+      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tasks: </p>
       :
       <p></p>
         }
@@ -36,10 +35,9 @@ function CardContent(props) {
 export default class CustCard extends React.Component {
   
   render() {
-   
     return (
-      <div style={{ width: this.props.width + "px" }}>
-        <div className="styleCard">
+      <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div className="">
           <CardContent
             tech={this.props.tech}
             tasks={this.props.tasks}
@@ -50,11 +48,3 @@ export default class CustCard extends React.Component {
     );
   }
 }
-
-// 2. Defaults /////////////////////////////////////////////
-CustCard.defaultProps = {
-  width: 900,
-  title: "Template - Card Title",
-  location: "Location label",
-  description: "Template description textbox"
-};

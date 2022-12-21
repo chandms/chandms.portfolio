@@ -16,11 +16,7 @@ export default function Publications() {
             publications.map((publication) => {
                 return (
                 <div>
-                    <div className="flex">
-                    <img src={publication.image} style={{width: publication.width +"px", height: publication.height +"px"}}
-                    alt="publication" className="mr-5"/>
                     <a href={publication.link} className=" underline font-bold hover:text-indigo-400 text-white">{publication.title}</a>
-                    </div>
                     <h1 className="text-white">{publication.authors}</h1>
                 </div>
                     

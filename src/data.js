@@ -7,8 +7,6 @@ export const projects = [
       "Team: Messenger > Messaging Health Signal > Privacy Approval Monitor(PAM)",
     goal: "Goal: To visulaize if any messenger feature was accessing data from sensitive table, and determine that before the code reaches production.",
     image: "./pictures/meta_icon.webp",
-    width: "100",
-    height: "100",
     tech: "React, GraphQL, Python",
     tools: ["Mercurial (Version Control)", "VS Code (IDE)"],
     tasks: [
@@ -26,8 +24,6 @@ export const projects = [
       "Team: Wealth and Personal Banking(WPB) > Global Credit Module(GCM)",
     goal: "Worked as a Full Stack Developer on a product that  primarily addresses Relationship Managers, but some features were also customer-centric.",
     image: "./pictures/HSBC-sym.png",
-    width: "100",
-    height: "200",
     tech: "JAVA, DB2, Batch",
     tools: ["Github (Version Control)", "Jenkins (Deployment)", "G3 (Deployment)", "JIRA (Track Work in Agile SDLC)"],
     tasks: [
@@ -55,8 +51,6 @@ export const research = [
       "Security of VR-AR pairing, working with Microsoft HoloLens",
     goal: "",
     images: [],
-    width: "300",
-    height: "250",
     tech: "C#, Python",
     tools: ["Unity (To develop MRTK Apps)", "GitHub (Version Control)"],
     github_link: "",
@@ -77,8 +71,6 @@ export const research = [
       "Post Disaster Situation Analysis and Resource Management Using Delay-Tolerant Peer-to-Peer Wireless Networks.",
     goal: "Goal: To visualize the summary of GIS data shared by victims and volunteers in a disaster-stricken area in offline mode.",
     images: ["./pictures/surakshit_1.png", "./pictures/surakshit_2.png"],
-    width: "300",
-    height: "250",
     tech: "JAVA, Python, Javascript, MongoDB",
     tools: ["GitHub (Version Control)"],
     tasks: [
@@ -101,8 +93,6 @@ export const research = [
       "Peer-to-Peer Live Video Streaming based on Scalable Video Coding - Pre-encoded videos can not adapt to channels that support different bit rates or clients that support various display capacities. During live video streaming bandwidth, delay, loss of packet may vary.",
     goal: "Goal: The primary objective was to achieve the video of optimum quality on the client side according to the network conditions and also to reduce the load on the server.",
     images: [],
-    width: "300",
-    height: "250",
     tech: "JAVA, Python",
     tools: ["GitHub (Version Control)"],
     github_link: "https://github.com/chandms/cnergWork",
@@ -119,9 +109,6 @@ export const publications = [
     title: "On designing a fast-deployable 'localized' GIS platform for using 'offline' during post-disaster situation",
     authors: "Partha Sarathi Paul, Chandrika Mukherjee, Bishakh Chandra Ghosh, Sudipta Pandit, Sujoy Saha, Subrata Nandi",
     link: "https://dl.acm.org/doi/10.1145/3288599.3295592",
-    image: "./pictures/acm.png",
-    width: 75,
-    height: 50,
   },
 ];
 

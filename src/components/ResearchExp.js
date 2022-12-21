@@ -61,13 +61,12 @@ export default function ResearchProjects() {
         : <p></p>
         }
         </b>
-        <div className="flex mx-auto">
+        <div className="flex mx-auto flex-wrap">
             {
                 project.images.map((image)=>{
                     return (
                         <img
-                            className="mx-auto"
-                            style={{ width: project.width + "px", height: project.height +"px"}}
+                            className="mx-auto w-32 sm:w-32 md:w-64 lg:w-96"
                             src={image}
                             alt="Logo"
                             />

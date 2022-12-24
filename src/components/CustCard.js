@@ -2,7 +2,7 @@ import React from "react";
 
 function CardContent(props) {
   return (
-    <div className="shadow-lg shadow-indigo-500/50 flex flex-col flex-wrap ">
+    <div className="shadow-lg shadow-indigo-500/50 flex flex-col flex-wrap  ">
       <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tech Stack:</p>
       <p className="">{props.tech}</p>
       <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tools: </p>

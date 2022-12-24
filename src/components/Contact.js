@@ -45,7 +45,6 @@ export default function Contact() {
               </h2>
               <p className="mt-1">
                 241 Sheetz Street, <br/>
-                Apt 10, <br />
                 WestLafayette, Indiana, <br/>
                 47906
               </p>

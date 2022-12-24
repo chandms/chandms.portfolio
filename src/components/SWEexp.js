@@ -7,9 +7,9 @@ import { ArrowsExpandIcon} from "@heroicons/react/solid";
 
 function OutlineCollapse(props){
   return (
-    <div className="flex flex-col flex-wrap">
+    <div className="flex flex-col flex-wrap break-all">
     <div className="px-5 py-10 mx-auto text-center lg:px-40">
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-row space-x-2 justify-around">
       <h1 className="  text-white font-mono text-2xl">{props.title}</h1>
       <div>
         <img
@@ -36,7 +36,7 @@ export default function Projects() {
   return (
     <section id="projects" className="text-gray-500 bg-gray-900 body-font ">
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full flex-wrap break-all overflow-hidden">
       <CodeIcon className="mx-auto inline-block w-10" />
       <h1 className="sm:text-2xl text-3xl font-medium title-font text-white">
         Software Engineering Experience

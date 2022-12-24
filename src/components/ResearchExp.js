@@ -6,7 +6,7 @@ import { ArrowsExpandIcon, AcademicCapIcon} from "@heroicons/react/solid";
 
 function OutlineCollapse(props){
   return (
-    <div className="flex flex-col flex-wrap">
+    <div className="flex flex-col flex-wrap break-all">
     <div className="px-5 py-10 mx-auto text-center lg:px-40">
       <div>
       <h1 className="text-white font-mono text-2xl">{props.title}</h1>
@@ -32,7 +32,7 @@ export default function ResearchProjects() {
   return (
     <section id="research" className="text-gray-500 body-font">
     <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-    <div className="flex flex-col w-full mb-20">
+    <div className="flex flex-col w-full mb-20 flex-wrap break-all overflow-hidden">
       <AcademicCapIcon className="mx-auto inline-block w-10 mb-4" />
       <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
         Research Experience
@@ -57,7 +57,7 @@ export default function ResearchProjects() {
               tasks={project.tasks}
                />
         <b>{project.github_link!=="" ? 
-        <a href={project.github_link} className="text-black underline hover:bg-indigo-700">GitHub Link</a>
+        <a href={project.github_link} className="text-black underline hover:bg-indigo-700 break-all">GitHub Link</a>
         : <p></p>
         }
         </b>

@@ -3,12 +3,12 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div>
+
     <header className="bg-purple-600 md:sticky lg:sticky top-0 z-10">
       <div className=" container place-content-evenly mx-auto flex flex-wrap p-5 md:flex-row items-center">
         <div className="title-font font-medium text-rose-800 mb-4 md:mb-0">
           <a href="#about" className=" text-xl border-0 py-1 px-3 hover:bg-blue-700 rounded text-base mt-4 md:mt-0">
-            Chandrika Mukherjee
+            Chandrika
           </a>
         </div>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
@@ -42,15 +42,5 @@ export default function Navbar() {
         </a>
       </div>
     </header>
-    <header className="bg-pink-300 md:sticky lg:sticky top-0 z-10">
-    <div className=" container place-content-evenly mx-auto flex flex-wrap p-5 md:flex-row items-center">
-    <div className="title-font font-medium text-rose-800 mb-4 md:mb-0">
-          <a href="#blogs" className=" text-xl border-0 py-1 px-3 hover:bg-blue-700 rounded text-base mt-4 md:mt-0">
-            My Blogs
-          </a>
-    </div>
-    </div>
-    </header>
-    </div>
   );
 }

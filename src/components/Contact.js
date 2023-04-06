@@ -36,7 +36,7 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=241+Sheetz+Street,+West+Lafayette,+IN,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJLQRlIUf9EogR7xuhqJPidd8&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
@@ -44,22 +44,14 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                241 Sheetz Street, <br/>
-                WestLafayette, Indiana, <br/>
-                47906
+                <br/>
+                WestLafayette, Indiana, USA <br/>
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
               <a href="mailto:chandrika.mjee@gmail.com" className="text-indigo-400 leading-relaxed">
-                chandrika.mjee@gmail.com
+              EMAIL
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">765-746-9637</p>
             </div>
           </div>
         </div>

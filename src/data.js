@@ -119,7 +119,7 @@ export const education = [
     date: "August 2021 - Current",
     degree: "Master of Science (MS)",
     major: "Computer Science",
-    CGPA: "CGPA: 3.66 / 4.00",
+    CGPA: "CGPA: 3.81 / 4.00",
 
 
   },

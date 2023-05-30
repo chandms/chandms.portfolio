@@ -36,7 +36,7 @@ export default class CustCard extends React.Component {
   
   render() {
     return (
-      <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+      <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl">
         <div className="">
           <CardContent
             tech={this.props.tech}

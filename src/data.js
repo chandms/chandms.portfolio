@@ -5,15 +5,19 @@ export const projects = [
     location: "NYC, USA",
     description:
       "Team: Messenger > Messaging Health Signal > Privacy Approval Monitor(PAM)",
-    goal: "Goal: To visulaize if any messenger feature was accessing data from sensitive table, and determine that before the code reaches production.",
+    goal: "Goal: To ensure no messenger feature accesses data from sensitive tables, visualize and identify potential issues before production release",
     image: "./pictures/meta_icon.webp",
     tech: "React, GraphQL, Python",
     tools: ["Mercurial (Version Control)", "VS Code (IDE)"],
     tasks: [
-      "Collaborated with Asset Identification team and Privacy Lineage Team to uniquely identify different privacy assets [table, stored procedure (cql), mailbox_api, feature] utilizing the output of several scripts within PAM system. Each asset was formed as a node and connection among nodes were formed as edges, which was finally stored in Privacy Lineage System.",
-      "Built a UI tool that could help in visualizing any privacy asset and their connections present in Lineage System. With this development, we could visualize data flow among different privacy components - for example, how data flows from a particular mailbox api to stored procedure (cql) and finally to a table. The design of the UI was made generic so that any asset present on the Lineage System can be accessed. Also, Data provider API was made generic to support other teams if their asset data is stored in different tables, not in Privacy Lineage System.",
-      "Built another UI tool that could be used to get justification from a messenger feature owner if the feature is using a mailbox api in the code that interacts with sensitive table. The data could be filtered based on particular team and the UI will only show latest available data."
+      "Developed a UI tool that detects sensitive database access in code blocks, leveraged by software team leads before code production release.",
+      "Developed visual analytic tool to represent data flows within various privacy assets across Meta (e.g., data flow between mailbox API to CQL to databases)",
     ],
+    // tasks: [
+    //   "Collaborated with Asset Identification team and Privacy Lineage Team to uniquely identify different privacy assets [table, stored procedure (cql), mailbox_api, feature] utilizing the output of several scripts within PAM system. Each asset was formed as a node and connection among nodes were formed as edges, which was finally stored in Privacy Lineage System.",
+    //   "Built a UI tool that could help in visualizing any privacy asset and their connections present in Lineage System. With this development, we could visualize data flow among different privacy components - for example, how data flows from a particular mailbox api to stored procedure (cql) and finally to a table. The design of the UI was made generic so that any asset present on the Lineage System can be accessed. Also, Data provider API was made generic to support other teams if their asset data is stored in different tables, not in Privacy Lineage System.",
+    //   "Built another UI tool that could be used to get justification from a messenger feature owner if the feature is using a mailbox api in the code that interacts with sensitive table. The data could be filtered based on particular team and the UI will only show latest available data."
+    // ],
 
   },
   {
@@ -39,22 +43,24 @@ export const projects = [
 
 export const research = [
   {
-    title: "Working under the supervision of ",
-    project_name: "Dr. Z. Berkay Celik",
-    project_doc: "https://beerkay.github.io/",
+    title: "Security and Privacy of XR systems",
+    project_name: "PurSec Lab",
+    project_doc: "https://pursec.cs.purdue.edu/",
     subtitle: "Spring 2022 - Current",
-    location1: "PurSec Group at Purdue University ",
+    location1: "Purdue University",
     location2: "",
-    location1_url: "https://pursec.cs.purdue.edu/",
+    location1_url: "https://www.cs.purdue.edu/",
     location_url2: "",
     description:
-      " Working on security and privacy of extended reality systems. \n",
+      "Group pairing for mixed reality headsets, Dark patterns in XR\n",
     goal: "",
     images: [],
-    tech: "Javascript, HTML C#, Python",
-    tools: ["Aframe (To develop WebVR apps)", "Unity (To develop MRTK apps)", "GitHub (Version Control)"],
+    tech: "Javascript, HTML C#, Python,",
+    tools: ["Aframe, Unity, OpenPose, GitHub (Version Control)"],
     github_link: "",
     tasks: [
+      "Designing a secure group pairing protocol for mixed reality headsets (e.g. - HoloLens2) by leveraging multi-modal sensors within an open-shared environment. Implemented immersive mixed-reality applications to accumulate data from sensors such as hand, eye, head, and motion sensors during pairing. Implemented GazeLoc localizer using eye and hand-tracking data to precisely localize a participant during pairing.\n",
+      "Exploring effects of dark patterns in XR systems."
     ],
 
   },

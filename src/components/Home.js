@@ -12,11 +12,11 @@ import Teaching from "./Teaching";
 
 export default function Home() {
   return (
-    <div className="text-emerald-900 bg-pink-50 body-font">
+    <div className=" body-font">
       <Navbar />
       <About />
-      <Projects />
       <ResearchProjects/>
+      <Projects />
       <Publications/>
       <Education/>
       <Teaching/>

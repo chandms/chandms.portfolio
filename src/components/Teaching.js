@@ -4,11 +4,11 @@ import { LibraryIcon } from "@heroicons/react/solid";
 
 export default function Teaching() {
   return (
-    <section id="teaching" className="text-gray-500 bg-gray-300 body-font">
+    <section id="teaching" className=" body-font">
     <div className="container px-5 py-10 mx-auto text-center ">
     <div className="flex flex-col w-full mb-20 overflow-hidden">
       <LibraryIcon className="mx-auto inline-block w-10 mb-4" />
-      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-500">
+      <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
         Teaching
       </h1>
       

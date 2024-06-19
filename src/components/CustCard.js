@@ -2,10 +2,10 @@ import React from "react";
 
 function CardContent(props) {
   return (
-    <div className="shadow-lg shadow-indigo-500/50 flex flex-col flex-wrap  ">
-      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tech Stack:</p>
+    <div className="shadow-lg shadow-indigo-100/50 flex flex-col flex-wrap  ">
+      <p className="bg-indigo-100 shadow-lg shadow-indigo-500/50 text-black font-bold">Tech Stack:</p>
       <p className="">{props.tech}</p>
-      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tools: </p>
+      <p className="bg-indigo-100 shadow-lg shadow-indigo-500/50 text-black font-bold">Tools: </p>
       <ul className="list-none">
       {props.tools && props.tools.map(tool => {return (
          <li key={tool} className="italic font-medium mx-auto px-auto">{tool}</li>
@@ -14,7 +14,7 @@ function CardContent(props) {
       </ul>
       <b>{
       props.tasks.length>0 ?
-      <p className="bg-indigo-500 shadow-lg shadow-indigo-500/50 text-black">Tasks: </p>
+      <p className="bg-indigo-100 shadow-lg shadow-indigo-500/50 text-black">Tasks: </p>
       :
       <p></p>
         }

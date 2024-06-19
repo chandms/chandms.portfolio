@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className=" container place-content-evenly mx-auto flex flex-wrap p-5 md:flex-row items-center">
         <div className="title-font font-medium text-rose-800 mb-4 md:mb-0">
           <a href="#about" className=" text-xl border-0 py-1 px-3 hover:bg-blue-400 rounded text-base mt-4 md:mt-0">
-            Chandrika
+            Chandrika Mukherjee
           </a>
         </div>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center"> 

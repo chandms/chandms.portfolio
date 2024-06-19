@@ -9,13 +9,13 @@ function OutlineCollapse(props){
     <div className="flex flex-col flex-wrap break-all">
     <div className="px-5 py-10 mx-auto text-center lg:px-40">
       <div>
-      <h1 className="text-white font-mono text-2xl">{props.title}</h1>
-      <a href={props.project_doc} target="_blank" rel="noreferrer" className="mr-2 text-white font-mono text-2xl hover:bg-yellow-900 underline">{props.project_name}</a>
+      <h1 className="text-white title-font text-2xl">{props.title}</h1>
+      <a href={props.project_doc} target="_blank" rel="noreferrer" className="mr-2 text-white title-font text-2xl hover:bg-blue-200 underline">{props.project_name}</a>
       </div>
     </div>
-    <a href={props.location1_url} target="_blank" rel="noreferrer" className="text-center mx-auto underline text-black hover:bg-indigo-400">{props.location1}</a>
+    <a href={props.location1_url} target="_blank" rel="noreferrer" className="text-center mx-auto underline text-black hover:bg-blue-200">{props.location1}</a>
     <br></br>
-    <a href={props.location2_url} target="_blank" rel="noreferrer" className="text-center mx-auto underline text-black hover:bg-indigo-400">{props.location2}</a>
+    <a href={props.location2_url} target="_blank" rel="noreferrer" className="text-center mx-auto underline text-black hover:bg-blue-200">{props.location2}</a>
     
     <p className="text-slate">{props.date}</p>
     <br></br>
@@ -30,7 +30,7 @@ function OutlineCollapse(props){
 
 export default function ResearchProjects() {
   return (
-    <section id="research" className=" body-font">
+    <section id="research" className=" title-font">
     <div className="px-5 py-10 mx-auto text-center lg:px-10">
     <div className="flex flex-col w-full mb-20 flex-wrap break-all overflow-hidden">
       <ChartBarIcon className="mx-auto inline-block w-10 mb-4" />

@@ -16,7 +16,7 @@ export default function Publications() {
             publications.map((publication) => {
                 return (
                 <div className="">
-                    <a target="_blank" rel="noreferrer" href={publication.link} className=" underline font-bold hover:bg-indigo-300 rounded text-gray-500">{publication.title}</a>
+                    <a target="_blank" rel="noreferrer" href={publication.link} className=" underline font-bold hover:bg-blue-200 rounded text-gray-500">{publication.title}</a>
                     <br></br>
                     <h1 className="">{publication.authors}</h1>
                 </div>

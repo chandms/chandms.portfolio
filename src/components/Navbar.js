@@ -34,7 +34,7 @@ export default function Navbar() {
             Interests
           </a>
           <a target="_blank" rel="noreferrer" href="./pdfs/ChandrikaMukherjee.pdf" className="mr-5 border-0 py-1 px-2 hover:bg-blue-400 rounded text-base mt-4 md:mt-0">
-          CV
+          Resume
           </a>
           <a target="_blank" rel="noreferrer" href="https://chandms.github.io/blogs/" className="mr-5 border-0 py-1 px-2 hover:bg-blue-400 rounded text-base mt-4 md:mt-0">
           Blogs

@@ -46,7 +46,7 @@ export const research = [
     title: "Security and Privacy of XR systems",
     project_name: "PurSec Lab",
     project_doc: "https://pursec.cs.purdue.edu/",
-    subtitle: "Spring 2022 - Current",
+    subtitle: "Present",
     location1: "Purdue University",
     location2: "",
     location1_url: "https://www.cs.purdue.edu/",
@@ -122,10 +122,10 @@ export const education = [
   {
     school: "Purdue University",
     location: "WestLafayette, Indiana, USA",
-    date: "Fall 2023 - Present",
+    date: "Expected August 2027",
     degree: "Doctor of Philosophy (Ph.D.)",
     major: "Computer Science",
-    CGPA: "CGPA: 3.95 / 4.00",
+    CGPA: "CGPA: 3.95 / 4.00 (plan of study)",
 
 
   },
@@ -203,14 +203,19 @@ export const interests =[
 
 export const teaching = [
   {
-    role: "Graduate Teaching Assistant at EPICS and VIP in Purdue",
-    desc: ['GTA for 4 undergraduate teams working with different community partners to deliver engineering products by employing design process'],
-    sems : 'Fall 2022 & Spring 2023 & Fall 2023'
+    role: "Graduate Teaching Assistant for Foundations Of Computer Science CS 18200",
+    sems : 'Fall 2024'
   },
   {
     role: "Graduate Teaching Assistant at First Year Engineering in Purdue",
     desc: ["Course prep and in-person teaching for ENGR 133 Summer Prep - Introduction to Excel, Python, MATLAB"],
     sems : 'Summer 2023'
-  }
+  },
+  {
+    role: "Graduate Teaching Assistant at EPICS and VIP in Purdue",
+    desc: ['GTA for 4 undergraduate teams working with different community partners to deliver engineering products by employing design process'],
+    sems : 'Fall 2022 & Spring 2023 & Fall 2023'
+  },
+
 ]
 

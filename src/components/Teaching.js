@@ -18,7 +18,9 @@ export default function Teaching() {
               return (
                 <div className="px-auto py-auto mb-4 text-gray-500 text-md font-base shadow-lg ">
                   <h1>{item.role} [{item.sems}]</h1>
+                  {item.desc &&
                   <h1>Description: {item.desc}</h1>
+                  }
                 </div>
               );
           })

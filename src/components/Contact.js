@@ -11,8 +11,10 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    
+    // template_a6xw1fv service_vga1zef fIH415Mggf_Q2FylC 
 
-    emailjs.sendForm('service_vga1zef', 'template_a6xw1fv', e.target, 'fIH415Mggf_Q2FylC')
+    emailjs.sendForm('service_2azjalg', 'template_84pkviq', e.target, '4grrKH2QmY9Wd42z2')
       .then((result) => {
           alert("Email sent Sucessfully!!")
           console.log(result.text);
@@ -49,7 +51,8 @@ export default function Contact() {
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <a href="mailto:chandrika.mjee@gmail.com" className="text-indigo-400 leading-relaxed">
+              {/* <a href="mailto:chandrika.mjee@gmail.com" className="text-indigo-400 leading-relaxed"> */}
+              <a href="mailto:chandms.usa@gmail.com" className="text-indigo-400 leading-relaxed">
               EMAIL
               </a>
             </div>
